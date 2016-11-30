@@ -1,0 +1,58 @@
+section span {
+	font-size: .9em !important;
+}
+
+
+body {
+	color: #9EE9F8;
+	font-family: Lobster;
+}
+
+.about-me {
+	background-color: #efefef !important;
+}
+
+.finish a,
+.about-me a {
+	font-size: .8em;
+	color: #2B2E3B;
+}
+
+.who-use-it {
+	position: relative;
+}
+
+.who-use-it .wrap-logos img {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.where-use-it,
+.about-electron,
+.start {
+	background-color: #2B2E3B !important;
+}
+
+.where-use-it h3,
+.about-electron h3,
+.start h3 {
+	font-family: 'Open Sans';
+	color: #9EE9F8 !important;
+}
+
+.about-me a,
+.about-me,
+.about-electron ul,
+p {
+	font-family: 'Open Sans';
+}
+
+img {
+	background-color: transparent !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+#logo-electron {
+	width: 500px;
+}

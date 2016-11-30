@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Electron</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section class="about-me">
+				<section>
+					<h2>Сергій Борейко</h2>
+					<a href="https://twitter.com/jestersunborn">@jestersunborn</a>
+				</section>
+				<section>
+					<ul>
+						<li>Студент</li>
+						<li class="fragment">Front-end розробник</li>
+						<li class="fragment">Учасник <a href="https://chernivtsi.js.org/">@ChernivtsiJS</a></li>
+						<li class="fragment">Ментор <a href="https://nodeschool.io/chernivtsi/">@NodeSchool Chernivtsi</a></li>
+					</ul>
+				</section>
+			</section>
+			<section class="start">
+				<section>
+					<h3>Давайте поговоримо про</h3>
+					<img src="img/electron-logo.svg" alt="" id="logo-electron">
+				</section>
+				<section>
+					<p>
+						<img src="img/github-logo.png" alt="" width="400px">
+					</p>
+				</section>
+				<section>
+					<h3>Atom</h3>
+				</section>
+				<section>
+					<h3>Atom Shell</h3>
+				</section>
+				<section>
+					<h3>Atom Shell => Electron</h3>
+				</section>
+			</section>
+			<section class="about-electron">
+				<section>
+					<h3>То що ж таке цей Electron?</h3>
+				</section>
+				<section>
+					<ul>
+						<li class="">Chromium</li>
+						<li class="fragment">Nodejs</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Процеси</h3>
+					<ul>
+						<li class="fragment">Main process</li>
+						<li class="fragment">Render process</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Main process</h3>
+					<p>Відповідає за інтеграцію та взаємодію з GUI операційної системи.</p>
+				</section>
+				<section>
+					<h3>Render process</h3>
+					<p>Відповідає за відображення вікна браузера, в якому може бути відкрита сторінка додатка або будь-яка інша веб-сторінка. За створення процесу рендеринга відповідає основний процес.</p>
+				</section>
+				<section>
+					<ul>
+						<li class="fragment">Керування вікном (згортання, розгортання на весь екран, закриття)</li>
+						<li class="fragment">Повідомлення про помилки</li>
+						<li class="fragment">Сповіщення</li>
+						<li class="fragment">...</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Що ми можемо використовувати?</h3>
+					<ul>
+						<li>Будь-який JavaScript фреймворк</li>
+						<li class="fragment">Препроцесори для CSS та JavaScript</li>
+						<li class="fragment">Шаблонізатори HTML</li>
+						<li class="fragment">Будь-які інструменти</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Пару прикладів</h3>
+				</section>
+				<section>
+					<h3>Збірка</h3>
+					<code>electron-packager</code>
+					<br>
+					<br>
+					<code>electron-builder</code>
+				</section>
+			</section>
+			<section class="where-use-it">
+				<section>
+					<h3>Майже кінець</h3>
+				</section>
+				<section class="who-use-it">
+					<h3>Хто використовує Electron?</h3>
+					<div class="wrap-logos">
+						<img src="img/based-on-electron/yeoman-app.png" alt="" width="100px">
+						<img src="img/based-on-electron/visual-studio-code.png" alt="" width="100px">
+						<img src="img/based-on-electron/atom.png" alt="" width="100px">
+						<img src="img/based-on-electron/slack.png" alt="" width="100px">
+						<img src="img/based-on-electron/hyperterm.png" alt="" width="100px">
+					</div>
+					<p>
+						<a href="http://electron.atom.io/apps/">electron.atom.io/apps/</a>
+					</p>
+				</section>
+			</section>
+			<section class="finish">
+				<section>
+					<ul>
+						<li>Документація по Electron на сайті: <a href="http://electron.atom.io/docs/">electron.atom.io/docs/</a></li>
+						<li>Документація по Electron на Github: <a href="https://github.com/electron/electron/tree/master/docs">github.com/electron/electron/tree/master/docs</a></li>
+						<li>Документація <code>electron-packager</code>: <a href="https://github.com/electron-userland/electron-packager">github.com/electron-userland/electron-packager</a></li>
+						<li>Документація <code>electron-builder</code>: <a href="https://github.com/electron-userland/electron-builder">github.com/electron-userland/electron-builder</a></li>
+						<li>Побудова додатку на Electron (Medium): <a href="https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658#.oc7dg6572">Building a desktop application with Electron</a></li>
+					</ul>
+				</section>
+				<section>
+					<p>
+						<a href="https://twitter.com/jestersunborn">@jestersunborn</a>
+					</p>
+					<p>
+						<a href="https://jestersunborn.github.io">jestersunborn.github.io</a>
+					</p>
+					<p>
+						<a href="http://chernivtsi.js.org">chernivtsi.js.org</a>
+					</p>
+				</section>
+				<section>
+					<h3>Дякую вам</h3>
+					<h4>^^</h4>
+				</section>
+				<section>
+					<h3>Питання?</h3>
+				</section>
+				<section>
+					<img src="./img/so-logo.png" alt="">
+				</section>
+				<section>
+					<img src="img/qrcode-slides.jpeg" alt="" width="500px">
+					<p>
+						<a href="https://jestersunborn.github.io/slides-electron">jestersunborn.github.io/slides-electron</a>
+					</p>
+				</section>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		Reveal.initialize({
+			history: true,
+
+			dependencies: []
+		});
+	</script>
+</body>
+</html>
